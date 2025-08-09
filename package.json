@@ -1,0 +1,27 @@
+{
+  "name": "@barricade-cloud/express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "barricade",
+    "barricade-cloud",
+    "waf",
+    "firewall",
+    "web application firewall",
+    "security",
+    "xss",
+    "sql injection",
+    "helmet"
+  ],
+  "author": "Saïd Mimouni <sayid.mimouni@gmail.com>",
+  "license": "ISC",
+  "description": "Express middleware providing web application firewall (WAF) features to protect against common attacks such as XSS and SQL injection.",
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "nock": "^14.0.9",
+    "supertest": "^7.1.4"
+  }
+}
