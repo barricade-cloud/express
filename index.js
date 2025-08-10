@@ -52,7 +52,8 @@ const main = (options = {}) => {
             const response = await fetch('https://waf.barricade.cloud/', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${options.apiKey}`
                 },
                 body: JSON.stringify(payload),
                 signal: controller.signal,
